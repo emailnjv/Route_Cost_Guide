@@ -11,6 +11,6 @@
   1. HERE MAPS Geocoding
   2. HERE MAPS Routing + Toll Cost Extension
   3. Highcharts Charting
-  4. Browser Native Voice Recognition
+  4. HTML5 Speech Recognition
 
 https://agile-dusk-86686.herokuapp.com/
