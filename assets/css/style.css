@@ -1,0 +1,159 @@
+
+.modal {
+    display: none; /* Hidden by default */
+    position: absolute; /* Stay in place */
+    z-index: 4; /* Sit on top */
+    left: 0;
+    top: 104px;
+    right: 125px;
+    min-width: 60%; /* Full width */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.5); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    text-align: center;
+    background-color: #fefefe;
+    margin: 2% auto; /* 15% from the top and centered */
+    padding: 5px 8px !important;
+    width: 95%;
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.highcharts-tooltip h3 {
+     margin: 0.3em 0;
+ }
+.icon-block {
+    padding: 0 10px;
+}
+.icon-block .material-icons {
+    font-size: inherit;
+}
+input {
+    font-size:48px;
+    border:5px;
+    border-radius:5px;
+    border-color:orange;
+    color:teal;
+    margin:20px;
+}
+#boxes2 {
+    float:left;
+    margin-left:30px;
+    margin-top: -38px;
+    position:absolute;
+}
+.directions li span.arrow {
+    display:inline-block;
+    min-width:28px;
+    min-height:28px;
+    background-position:0;
+    position:relative;
+    top:8px;
+}
+.map_wrapper {
+    float:left;
+}
+.route_wrapper {
+    height:665px;
+    width:50%;
+    border: 4px solid #99cdfe;
+    float:right;
+    background-color:white;
+    opacity: 0;
+    text-align: center;
+    font-size: 30px;
+
+}
+.result_panel_div{
+    width:100%;
+    height: auto;
+    float: left;
+}
+
+.route{
+    width: 100%;
+    height:50px;
+    overflow: hidden;
+    margin-top: 10px;
+    background-color: white;
+}
+.error_in_tex{
+    background-color: red!important;
+}
+#containerChart{
+    height: 300px;
+}
+.route_title_1{
+    background-color: #EC7063;
+    width:100%;
+    height:50px;
+    border-radius: 5px;
+}
+.route_title_2{
+    background-color: #9B59B6;
+    width:100%;
+    height:50px;
+    border-radius: 5px;
+}
+.route_title_3{
+    background-color:#2980B9;
+    width:100%;
+    height:50px;
+    border-radius: 5px;
+}
+
+.route_title_4{
+    background-color:#1ABC9C;
+    width:100%;
+    height:50px;
+    border-radius: 5px;
+}
+
+.route_title_5{
+    background-color:#27AE60;
+    width:100%;
+    height:50px;
+    border-radius: 5px;
+}
+.loading{
+    padding:250px;
+}
+#starting_page{
+    position: relative;
+    width:100%;
+    height:100%;
+    background-color: #00b0ff;
+    z-index: 10;
+}
+.map_wrapper{
+    width:100%;
+    height:665px
+}
+#map{
+    float: left;
+    width:100%;
+    height:665px;
+}
+#voice_rec{
+    background-color: #dddddd;
+    width:50px;
+    background: url("../image/Microphone.png") no-repeat;
+}
+h1{
+    margin-top: 0;
+}
