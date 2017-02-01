@@ -1,5 +1,5 @@
 # Route Cost Guide
-#####Gives you multiple routes comlpete with directions and toll cost associaed with each specific route, and graphs them visually.
+#####Gives you multiple routes complete with directions and toll cost associated with each specific route, and graphs them visually.
 ###Technologies Used:
 1. HTML
 2. CSS
